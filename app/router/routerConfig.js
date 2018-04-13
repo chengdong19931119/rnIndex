@@ -25,3 +25,4 @@ const RouterConfig = StackNavigator(
         
     }
 )
+export default RouterConfig;
