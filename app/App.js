@@ -6,6 +6,7 @@
 
 import React, { Component } from 'react';
 import { Loading } from '@components';
+import RouterConfig from './router/index';
 import {
   Platform,
   StyleSheet,
@@ -37,6 +38,7 @@ export default class App extends Component {
           {instructions}
         </Text> */}
         <Loading />
+        <RouterConfig />
       </View>
     );
   }
